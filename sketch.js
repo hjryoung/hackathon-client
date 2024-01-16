@@ -4,11 +4,11 @@ function setup (){
   createCanvas(500,500);
 }
 
-const timer = setInterval(() => {
-  a--;
-}, 1000);
+  const time = setInterval(() => {
+    a--;
+  }, 1000);
 
-function draw () {
+function draw(){
   background(150);
   fill(255);
   rect(415, 0, 100, 50);
@@ -20,7 +20,7 @@ function draw () {
       background(0);
       textSize(75);
       fill('red');
-      text('Game Over!', width / 2, height / 2);
+      text('Game Over!', 40, height / 2);
     }
 }
 
